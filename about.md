@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### About
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
+Frank joined [minubo](http://www.minubo.com) in 2013 as one of their first engineering hires. He ensures IT operations run smoothly and advocates agile workflows throughout the company.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[frank.langanke@googlmail.com](mailto:frank.langanke@googlemail.com)
