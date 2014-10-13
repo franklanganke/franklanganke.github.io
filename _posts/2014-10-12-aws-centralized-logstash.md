@@ -14,11 +14,27 @@ Our customers can connect to their Analysis Services Cube's via Excel. While our
 
 So the task is to analyze IIS log files and make results viewable for different groups.
 
-## Enter logstash
-* logstash, elasticsearch, kibana
+## ELK stack: elasticsearch, logstash, kibana
+The ELK stack provides the tools to process (logstash), store (elasticsearch) and visualize (kibana) distributed log files. Older logstash documents and the community use this architectural pattern to describe an event pipeline:
+```
+shipper --|
+...       |--> broker ---> indexer ---> storage  
+shipper --|
+```
 * shipper
+ Gathers logs on a system and ships them to the broker 
 * broker
+ Accepts events from various shippers, can handle lots of in- and outgoing events
 * indexer
+ Pulls events from the broker, analyze them and sends them off to different storages
+ 
+Our setup on AWS:
+```
+IIS/logstash --|                         --> mixpanel/HTTP API <-- mixpanel
+...            |--> AWS SQS --> logstash --> elasticsearch     <-- kibana
+IIS/logstash --|
+```
+
 
 ## AWS pipeline
 
