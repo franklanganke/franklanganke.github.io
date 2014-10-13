@@ -6,7 +6,7 @@ title: Centralized logging with logstash on AWS
 *this is a draft*
 
 ## Analyzing user and application behavior through distributed logs.
-Our customers can connect to their Analysis Services Cube's via Excel. While our product team tracks user actions our ops team needs to monitor the application state:
+Our customers can connect to their Analysis Services Cube's via Excel and ops team needs to monitor the application state:
 
 * What is the current load on all servers? Is the load equally balanced between servers?
 * Is the application working (HTTP/200)?
@@ -16,11 +16,13 @@ So the task is to analyze IIS log files and make results viewable for different 
 
 ## ELK stack: elasticsearch, logstash, kibana
 The ELK stack provides the tools to process (logstash), store (elasticsearch) and visualize (kibana) distributed log files. Older logstash documents and the community use this architectural pattern to describe an event pipeline:
+
 ```
 shipper --|
 ...       |--> broker ---> indexer ---> storage  
 shipper --|
 ```
+
 * shipper
  Gathers logs on a system and ships them to the broker 
 * broker
@@ -28,9 +30,10 @@ shipper --|
 * indexer
  Pulls events from the broker, analyze them and sends them off to different storages
  
-Our setup on AWS:
+Sample setup on AWS:
+
 ```
-IIS/logstash --|                         --> mixpanel/HTTP API <-- mixpanel
+IIS/logstash --|
 ...            |--> AWS SQS --> logstash --> elasticsearch     <-- kibana
 IIS/logstash --|
 ```
