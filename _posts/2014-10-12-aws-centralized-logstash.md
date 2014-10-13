@@ -23,14 +23,11 @@ The ELK stack provides the tools to process (logstash), store (elasticsearch) an
     shipper N --|
 
 
-* shipper
-
- Gathers logs on a system and ships them to the broker 
-* broker
-
- Accepts events from various shippers, can handle lots of in- and outgoing events
-* indexer
-
+* shipper  
+   Gathers logs on a system and ships them to the broker 
+* broker  
+    Accepts events from various shippers, can handle lots of in- and outgoing events
+* indexer  
  Pulls events from the broker, analyze them and sends them off to different storages
  
 Sample setup on AWS:
