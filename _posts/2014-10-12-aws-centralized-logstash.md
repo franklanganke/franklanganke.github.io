@@ -11,6 +11,8 @@ Our customers can connect to their Analysis Services Cube's via Excel. While our
 * Is the application working (HTTP/200)?
 * If not what is the message (without logging into the machine)?
 
+So the task is to analyze IIS log files and make results viewable for different groups.
+
 ## Enter logstash
 * logstash, elasticsearch, kibana
 * shipper
