@@ -1,1 +1,6 @@
-yes
+Fenced code block:
+```
+foo
+    bar
+bazz
+```
