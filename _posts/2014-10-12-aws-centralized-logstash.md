@@ -25,3 +25,5 @@ So the task is to analyze IIS log files and make results viewable for different 
 * deleting indexes
 * restarting logstash
 
+Mountain pass close in California, close to Yosemite NP:
+![Tioga Pass](/images/tiogapass.jpg)
