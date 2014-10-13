@@ -11,3 +11,10 @@ bazz
              |--> broker ---> indexer ---> storage  
  shipper N --|
 ```
+
+
+```
+IIS/logstash --|
+...            |--> AWS SQS --> logstash --> elasticsearch     <-- kibana
+IIS/logstash --|
+```
