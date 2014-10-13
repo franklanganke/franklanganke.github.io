@@ -14,10 +14,10 @@ Our customers can connect to their Analysis Services Cube's via Excel. While our
 So the task is to analyze IIS log files and make results viewable for different groups.
 
 ## Enter logstash
-* logstash, elasticsearch, kibana
-* shipper
-* broker
-* indexer
+*logstash, elasticsearch, kibana
+*shipper
+*broker
+*indexer
 
 ## AWS pipeline
 
@@ -25,5 +25,6 @@ So the task is to analyze IIS log files and make results viewable for different 
 * deleting indexes
 * restarting logstash
 
-Mountain pass close in California, close to Yosemite NP:
+
+Mountain pass in California, close to Yosemite NP:
 ![Tioga Pass](/images/tiogapass.jpg)
