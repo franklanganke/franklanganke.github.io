@@ -18,9 +18,9 @@ So the task is to analyze IIS log files and make results viewable for different 
 The ELK stack provides the tools to process (logstash), store (elasticsearch) and visualize (kibana) distributed log files. Older logstash documents and the community use this architectural pattern to describe an event pipeline:
 
 ```
-shipper 1 --|
-            |--> broker ---> indexer ---> storage  
-shipper N --|
+ shipper 1 --|
+             |--> broker ---> indexer ---> storage  
+ shipper N --|
 ```
 
 * shipper
