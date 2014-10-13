@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Centralized logging with logstash on AWS
 ---
