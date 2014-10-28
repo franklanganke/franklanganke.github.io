@@ -29,7 +29,7 @@ The ELK stack provides the tools to process (logstash), store (elasticsearch) an
 Sample setup on AWS:
 
     IIS/logstash --|
-                   |--> AWS SQS --> logstash --> elasticsearch     <-- kibana
+                   |--> AWS SQS --> logstash --> elasticsearch <-- kibana
     IIS/logstash --|
 
 ## Housekeeping
