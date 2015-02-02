@@ -47,6 +47,6 @@ Again just the ordinary logstash agent, this time configured to do the heavy pro
 * High system impact, depending on logstash's worker count CPU utilization can be 100%.
 * A couple of T2 Instances are a good choice if the workload is fluctuating.
 
+That wraps it up.
 
-Mountain pass in California, close to Yosemite NP:
-![Tioga Pass](/images/tiogapass.jpg)
+
