@@ -8,4 +8,4 @@ Frank joined [minubo](http://www.minubo.com) in 2013 as one of their first engin
 
 ### Contact me
 
-[frank.langanke@googlmail.com](mailto:frank.langanke@googlemail.com)
+[frank.langanke@googlemail.com](mailto:frank.langanke@googlemail.com)
