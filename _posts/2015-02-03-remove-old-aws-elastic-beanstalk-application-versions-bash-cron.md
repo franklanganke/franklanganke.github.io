@@ -31,14 +31,12 @@ _limit=${2:-"45"}
 echo "$(date)    checking app:$_appName with limit:$_limit "
 
 # get app versions above the limit as a list
-versions=$(aws elasticbeanstalk describe-application-versions --application-name $_appName\
-    --query ApplicationVersions[*].[VersionLabel] --output text | tail -n +$_limit)
+versions=$(aws elasticbeanstalk describe-application-versions --application-name $_appName --query ApplicationVersions[*].[VersionLabel] --output text | tail -n +$_limit)
 
 # delete obsolete versions
 for version in $versions
 do
-    aws elasticbeanstalk delete-application-version --delete-source-bundle\
-        --version-label "$version" --application-name "$_appName"
+    aws elasticbeanstalk delete-application-version --delete-source-bundle --version-label "$version" --application-name "$_appName"
     echo "$(date)    $_appName:$version deleted"
 done
 {% endhighlight %}
