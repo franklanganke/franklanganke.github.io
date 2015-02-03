@@ -17,34 +17,38 @@ Tue Feb  3 15:51:31 UTC 2015    foo-app:build-2015-01-29_16-28-58#176-dev delete
 
 The actual script:
 
-    #!/bin/bash
-    # 08.01.2015 Frank
-    # Delete obsolete elasticbeanstalk app versions
-    #
-    PATH=/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/home/ec2-user/bin
+{% highlight bash %}
+#!/bin/bash
+# 08.01.2015 Frank
+# Delete obsolete elasticbeanstalk app versions
+#
+PATH=/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/home/ec2-user/bin
 
-    # set defaults for name and limit
-    _appName=${1:-foo-app}
-    _limit=${2:-"45"}
+# set defaults for name and limit
+_appName=${1:-foo-app}
+_limit=${2:-"45"}
 
-    echo "$(date)    checking app:$_appName with limit:$_limit "
+echo "$(date)    checking app:$_appName with limit:$_limit "
 
-    # get app versions above the limit as a list
-    versions=$(aws elasticbeanstalk describe-application-versions --application-name $_appName\
-         --query ApplicationVersions[*].[VersionLabel] --output text | tail -n +$_limit)
+# get app versions above the limit as a list
+versions=$(aws elasticbeanstalk describe-application-versions --application-name $_appName\
+    --query ApplicationVersions[*].[VersionLabel] --output text | tail -n +$_limit)
 
-    # delete obsolete versions
-    for version in $versions
-    do
-        aws elasticbeanstalk delete-application-version --delete-source-bundle\
-            --version-label "$version" --application-name "$_appName"
-        echo "$(date)    $_appName:$version deleted"
-    done
+# delete obsolete versions
+for version in $versions
+do
+    aws elasticbeanstalk delete-application-version --delete-source-bundle\
+        --version-label "$version" --application-name "$_appName"
+    echo "$(date)    $_appName:$version deleted"
+done
+{% endhighlight %}
 
 Scheduling the script hourly as a cronjob:
 
-    # Delete obsolete application versions
-    @hourly /home/ec2-user/purgeAppVersions.sh foo-app 45 >> /home/ec2-user/purgeAppVersions.log
+{% highlight bash %}
+# Delete obsolete application versions
+@hourly /home/ec2-user/purgeAppVersions.sh foo-app 45 >> /home/ec2-user/purgeAppVersions.log
+{% endhighlight %}
 
 Told my developers they never have to delete versions manually again and enjoyed being celebrated as the king of devops ;)
 
