@@ -3,7 +3,7 @@ layout: post
 title: Remove Old AWS Elastic Beanstalk Application Versions (Bash & Cron Edition)
 ---
 
-We ran into the [TooManyApplicationVersions](http://docs.aws.amazon.com/elasticbeanstalk/latest/api/API_CreateApplicationVersion.html) and our developers got quickly annoyed clicking checkboxes in the AWS console to delete versions. Inspired by [Dan Mandles](http://www.danmandle.com/blog/automatically-remove-old-aws-elastic-beanstalk-application-versions/) post using PHP I wrote a shell script using the AWS CLI and scheduling it through a cronjob. It requires a configured [AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html). 
+We ran into the [TooManyApplicationVersions](http://docs.aws.amazon.com/elasticbeanstalk/latest/api/API_CreateApplicationVersion.html) Exception and our developers got quickly annoyed clicking checkboxes in the AWS console to delete versions. Inspired by [Dan Mandles](http://www.danmandle.com/blog/automatically-remove-old-aws-elastic-beanstalk-application-versions/) post using PHP I wrote a shell script using the AWS CLI and scheduling it through a cronjob. It requires a configured [AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html). 
 
 Usage example:
 {% highlight bash %}
