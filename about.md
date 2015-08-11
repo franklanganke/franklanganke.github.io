@@ -7,7 +7,7 @@ permalink: /about/
 
 I am a Software Engineer from Hamburg with a strong focus on Java, Agile Principles, DevOps Culture and AWS. Since 2013 I am Head of IT Operations at [minubo](http://www.minubo.com), a big data tech startup, wearing many hats. Lead AWS engineer, release engineer, agile coach, team lead. 
 
-Before minubo I worked as a technical consultant for different IT Services companies ([Prolifics](http://www.prolifics.com/), [NTT DATA](http://www.nttdata.com/)) mainly on enterprise projects for about 10 years.
+Before minubo I worked as a technical consultant for different IT Services companies ([Prolifics](http://www.prolifics.com/), [NTT DATA](http://www.nttdata.com/)) mainly on enterprise projects for about 10 years. I am a graduate of the University of Hamburg (Business Informatics / Diplom-Wirtschaftsinformatik). 
 
 ### Contact me
 
