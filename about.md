@@ -1,10 +1,13 @@
 ---
 layout: page
-title: About
+title: About Frank Langanke
 permalink: /about/
 ---
+*It Is Always About the People, Not Technology*
 
-Frank joined [minubo](http://www.minubo.com) in 2013 as one of their first engineering hires. He ensures IT operations run smoothly and advocates agile workflows throughout the company.
+I am a Software Engineer from Hamburg with a strong focus on Java, Agile Principles, DevOps Culture and AWS. Since 2013 I am Head of IT Operations at [minubo](http://www.minubo.com), a big data tech startup, wearing many hats. Lead AWS engineer, release engineer, agile coach, team lead. 
+
+Before minubo I worked as a technical consultant for different IT Services companies ([Prolifics](http://www.prolifics.com/), [NTT DATA](http://www.nttdata.com/)) mainly on enterprise projects for about 10 years.
 
 ### Contact me
 
