@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Frank Langanke
+title: About Me
 permalink: /about/
 ---
 *It Is Always About the People, Not Technology*
