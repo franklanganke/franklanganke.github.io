@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Books That Helped Our Fast Growing Startup
+title: Readings That Helped Our Fast Growing Startup
 ---
 * [Scrum: A Breathtakingly Brief and Agile Introduction](http://www.agilelearninglabs.com/resources/scrum-introduction/)  
 Great introduction for newcomers and co-workers who are not part of the development team alike. I point everyone to this since it helps to understand how the development team is actually working. Takes 30 minutes to read or to watch and they provide one-page slides for different roles, which are great handouts,
