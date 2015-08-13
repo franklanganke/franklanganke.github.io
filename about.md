@@ -9,6 +9,8 @@ I am a Software Engineer from Hamburg with a strong focus on Java, Agile Princip
 
 Before minubo I worked as a technical consultant for different IT Services companies ([Prolifics](http://www.prolifics.com/), [NTT DATA](http://www.nttdata.com/)) mainly on enterprise projects for about 10 years. I am a graduate of the University of Hamburg (Business Informatics / Diplom-Wirtschaftsinformatik). 
 
+I am an everyday cyclist and proud owner of a [Larry vs Harry Bullitt](https://www.flickr.com/groups/larryvsharry/pool/).
+
 ### Contact
 
 [frank.langanke@googlemail.com](mailto:frank.langanke@googlemail.com)
@@ -25,4 +27,3 @@ Before minubo I worked as a technical consultant for different IT Services compa
     </li>
   {% endfor %}
 </ul>
-
