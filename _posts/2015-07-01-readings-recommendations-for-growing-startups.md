@@ -8,8 +8,8 @@ Great introduction for newcomers and co-workers who are not part of the developm
 * [Personal Kanban: Mapping Work | Navigating Life](http://amzn.com/1453802266)  
 Although it is called "Personal" this is a short and easy introduction to Kanban. Simplicity rules.
 
-* [Kanban: Successful Evolutionary Change for Your Technology Business](http://amzn.com/0984521402)
-Thoroughly introduction to Kanban, not need for everyone but for those who want to get a good understanding.
+* [Kanban: Successful Evolutionary Change for Your Technology Business](http://amzn.com/0984521402)  
+Thoroughly introduction to Kanban, not needed for everyone but for those who want to get a good understanding.
 
 * [Reinventing Organizations](http://www.reinventingorganizations.com/)  
 The first part of the book provides a solid background on different organizational structures which helped me to understand what happens when we hit the 25 employee mark. It describes the emerge of a new kind of organization labeled "teal" also known also known as Holacracy; [Zappos went all in](http://www.zapposinsights.com/about/holacracy),
