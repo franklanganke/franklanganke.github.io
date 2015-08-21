@@ -3,7 +3,7 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-*It Is Always About the People, Not Technology*
+*It Is Always About People, Not Technology*
 
 I am a Software Engineer from Hamburg with a strong focus on Java, Agile Principles, DevOps Culture and AWS. Since 2013 I am Head of IT Operations at [minubo](http://www.minubo.com), a big data tech startup, wearing many hats. Lead AWS engineer, release engineer, agile coach, team lead. 
 
